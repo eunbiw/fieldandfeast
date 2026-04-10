@@ -26,6 +26,8 @@ body {
 header {
     text-align: center;
     margin-bottom: 16px;
+    padding: 48px 16px;
+    background-color: var(--midnight-blue);
 }
 header img {
     max-width: 120px;
@@ -38,6 +40,10 @@ header h1 {
     color: var(--midnight-blue);
     font-size: 32px;
 
+}
+nav {
+    background-color: var(--champagne-gold);
+    padding: 12px;
 }
 nav ul {
     justify-content: center;
