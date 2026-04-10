@@ -7,6 +7,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+img {
+    max-width: 100%;
+    display: block;
+}
 /* ROOT VARIABLES */
 :root {
     --midnight-blue: #1F2A44;
@@ -22,6 +27,7 @@ body {
     background-color: var(--linen);
     color: var(--dark-charcoal);
     padding:16px ;
+    line-height: 1.5;
 }
 header {
     text-align: center;
@@ -31,6 +37,7 @@ header {
 }
 header img {
     max-width: 120px;
+    margin: 0 auto 10px;
 }
 header p {
     color: var(--olive-green);
@@ -54,16 +61,35 @@ nav ul {
 }
 nav a {
     color: var(--midnight-blue);
+    font-weight: bold;
 }
 
 .grid {
     display: grid;
     gap: 16px;
 }
-img {
-    max-width: 100%;
-    display: block;
+main {
+    margin-top: 20px;
 }
+section {
+    margin-bottom: 20px;
+}
+h2 {
+    color: var(--midnight-blue);
+    margin-top: 20px;
+}
+
+footer {
+    background-color: var(--midnight-blue);
+    color: var(--soft-white);
+    text-align: center;
+}
+footer a {
+    color: var(--champagne-gold);
+    text-decoration: none;
+}
+
+
 /* MEDIA QUERY (medium) */
 @media (min-width: 600px) {
     .offerings {
