@@ -73,6 +73,7 @@ main {
 }
 section {
     margin-bottom: 20px;
+    padding: 24px 16px;
 }
 h2 {
     color: var(--midnight-blue);
@@ -83,6 +84,7 @@ footer {
     background-color: var(--midnight-blue);
     color: var(--soft-white);
     text-align: center;
+    padding: 24px;
 }
 footer a {
     color: var(--champagne-gold);
@@ -93,7 +95,20 @@ footer a {
     display: grid;
     gap: 16px;
 }
+.offerings article {
+    background-color: var(--olive-green);
+    color: var(--soft-white);
+    padding: 16px;
+}
+.gallery-grid figure {
+    background-color: var(--soft-white);
 
+}
+.button {
+    display: block;
+    width: 100%;
+    background-color: var(--olive-green);
+}
 /* MEDIA QUERY (medium) */
 @media (min-width: 600px) {
     .offerings {
