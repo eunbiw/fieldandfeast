@@ -17,6 +17,26 @@
     --soft-white: #FAF9F6;
 }
 /* GLOBAL STYLES (mobile first/small) */
+body {
+    font-family: 'playfair display';
+    background-color: var(--linen);
+    color: var(--dark-charcoal);
+    padding:16px ;
+}
+header {
+    text-align: center;
+    margin-bottom: 16px;
+}
+header img {}
+header h1 {
+
+}
+header p {
+
+}
+nav ul {}
+nav a {}
+
 /* MEDIA QUERY (medium) */
 /* MEDIA QUERY (large) */
 /* MEDIA QUERY (xl) */
