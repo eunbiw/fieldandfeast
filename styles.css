@@ -18,7 +18,7 @@
 }
 /* GLOBAL STYLES (mobile first/small) */
 body {
-    font-family: 'playfair display';
+    font-family: 'Playfair Display', serif;
     background-color: var(--linen);
     color: var(--dark-charcoal);
     padding:16px ;
