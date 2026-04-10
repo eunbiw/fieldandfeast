@@ -40,11 +40,11 @@ header img {
     margin: 0 auto 10px;
 }
 header p {
-    color: var(--olive-green);
+    color: var(--champagne-gold);
     font-size: 16px;
 }
 header h1 {
-    color: var(--midnight-blue);
+    color: var(--soft-whitee);
     font-size: 32px;
 
 }
@@ -88,7 +88,11 @@ footer a {
     color: var(--champagne-gold);
     text-decoration: none;
 }
-
+.offerings,
+.gallery-grid {
+    display: grid;
+    gap: 16px;
+}
 
 /* MEDIA QUERY (medium) */
 @media (min-width: 600px) {
